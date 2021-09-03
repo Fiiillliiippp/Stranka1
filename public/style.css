@@ -1,3 +1,30 @@
+body {
+    background-color: rgb(167, 167, 207);
+    
+}
+
 .hlava {
-    margin: 0, auto;
+    margin: 0 25%;
+    padding: 0;
+}
+
+.jadro {
+    margin: 0 25%;
+    padding: 100px 0%;
+    color: rgb(99, 53, 62);
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: rgb(99, 53, 62);
+    
+}
+
+a:hover,
+a:focus {
+    color: rgb(57, 127, 173);
+    border-bottom: 1px solid;
+
 }
