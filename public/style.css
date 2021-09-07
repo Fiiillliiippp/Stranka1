@@ -4,6 +4,7 @@ body {
     -webkit-font-smoothing: antialiased;
     text-align: center;
     padding: 0 20px;
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -93,10 +94,8 @@ p {
     color: darkmagenta;
     font-size: 28px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0 15%;
-    padding: 15px 0;   
     margin-top: -100px;
-    margin-left: 0px; 
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -112,7 +111,7 @@ p {
     font-size: 16px;
     font-family: monospace;
     font-style: italic;
-    margin-left: 250px;
+    /* margin-left: 250px; */
 }
 
 @media screen and (max-width: 800px) {
@@ -140,11 +139,15 @@ p {
     border-bottom: 1px solid;
 }
 
+
+
+
 .jadro {
-    margin: 0px 10%;
+    margin: 0px auto;
     padding: 100px 20px;
     color: rgb(99, 53, 62);
     font-size: 18px;
+    width: 950px;
 }
 
 .menodatum time::before {
@@ -197,5 +200,65 @@ p {
     line-height: 30px;
     font-style: italic;
 }
+
+.footer {
+    margin: 0 auto;
+    width: 700px;
+
+}
+h3 {
+    font-size: 20px;
+}
+.bioline a img{
+    padding: 10px 20px 0 0;   
+    display: block;
+    border-radius: 43%;
+}
+.bioline h3 {
+    text-align: left;
+    margin-left: 150px;
+}
+footer > h3 {
+    text-align: center;
+}
+
+.pre-footer{
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+
+}
+
+.recenzia{
+    list-style: none;
+    padding: 0 50px;
+}
+
+.recenzia blockquote {
+    margin-left: 0;
+}
+
+.recenzia li {
+    float: left;
+    width: 300px;
+    margin: 0 15px;
+    padding: 0 10px;
+}
+
+.recenzia li::before{
+    content: ' " ';
+    color: red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
