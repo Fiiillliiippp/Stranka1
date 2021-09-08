@@ -6,6 +6,10 @@ body {
     padding: 0 20px;
     overflow-x: hidden;
 }
+::-moz-selection {background: rgb(92, 150, 160); color: black; text-shadow: none;}
+::selection {background: rgb(92, 150, 160); color: black; text-shadow: none;}
+
+
 a {
     text-decoration: none;
 }
@@ -223,14 +227,14 @@ footer > h3 {
 }
 
 .pre-footer{
-    border-top: 1px dotted black;
-    border-bottom: 1px dotted black;
-
+    /* margin-top: -25px; */
 }
 
 .recenzia{
     list-style: none;
     padding: 0 50px;
+    position: relative;
+    z-index: 2;
 }
 
 .recenzia blockquote {
@@ -244,16 +248,31 @@ footer > h3 {
     padding: 0 10px;
 }
 
-.recenzia li::before{
+.recenzia li:before{
     content: ' " ';
+    font-size: 60px;
     color: red;
-    
+    position: relative;
+    z-index: 1;
+    top: 68px;
+    left: -120px; 
+    font-style: italic;
 }
 
 
 
+.hr1 {
+    clear: both;
+    width: 1305px;
+    margin-bottom: -36px;
+}
 
 
+
+.hr2{
+    clear: both;
+    width: 1305px;
+}
 
 
 
