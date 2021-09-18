@@ -18,13 +18,80 @@ p {
     margin: 0 0 24px 0;
 }
 
+
+.navigacia {
+    background: rgb(246 219 219 / 90%);
+    color: black;
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    left: 0;
+    width: 105%;
+    border-bottom: 1px solid #813434;
+}
+.navigacia a {
+    color: black;
+}
+.navigacia a:hover,
+.navigacia a:focus{
+    outline: black;
+    text-decoration: underline;
+}
+
+.navigacia li {
+    padding: 0 15px 5px 15px;
+    margin: -5px 20px 7px;
+    list-style: none;
+    color: black;
+    font-weight: 800;    
+}
+
+.reglog {
+    position: relative;
+    top: 0;
+    left: 40%;
+}
+
+.navigacia .login {
+    padding: 5px 15px 5px 15px;
+    margin: -7px 10px 5px;
+    background: #ff5c5c;
+    border-radius: 11px;
+    border: 0.2px solid rgb(158, 56, 56);
+}
+
+
+.navigacia .registrujsa {
+    padding: 5px 15px 5px 15px;
+    margin: -7px 10px 5px;
+    background: #ff5c5c;
+    border-radius: 11px;
+    border: 0.2px solid rgb(158, 56, 56);
+}
+
+.navigacia .registrujsa a:focus,
+.navigacia .registrujsa a:hover,
+.navigacia .login a:focus,
+.navigacia .login a:hover{
+    text-decoration: none;
+}
+
+.navigacia .login:hover,
+.navigacia .login:focus,
+.navigacia .registrujsa:hover,
+.navigacia .registrujsa:hover{
+    background: #fd3a3a;
+}
+
+
+
 .logo {
     text-align: center;
     font-size: 70px;
     position: relative;
     z-index: 4;
     left: 2%;
-    top: -75px;
+    top: -41px;
     overflow: hidden;
 }
 
@@ -235,6 +302,7 @@ footer > h3 {
     padding: 0 50px;
     position: relative;
     z-index: 2;
+    overflow: hidden;
 }
 
 .recenzia blockquote {
@@ -261,18 +329,7 @@ footer > h3 {
 
 
 
-.hr1 {
-    clear: both;
-    width: 1305px;
-    margin-bottom: -36px;
-}
 
-
-
-.hr2{
-    clear: both;
-    width: 1305px;
-}
 
 
 

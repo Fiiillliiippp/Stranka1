@@ -10,10 +10,22 @@
 </head>
 <body>
     <header>
-            <h1 class="logo">
+        
+            <h1 class="logo" id="logo">
                 <a  href="#"> Toto je prvá stránka blogu</a> 
             </h1>
-        
+        <nav class="navigacia">
+            <ul>
+                <li class="vlavo"><a href="#logo">Logo</a> </li>
+                <li class="vlavo"><a href="#Članok">Članok</a> </li>
+                <li class="vlavo"><a href="#Oautorovi">O Autorovi</a> </li>
+                <li class="vlavo"><a href="#recenzie">Komentáre</a> </li>
+                <div class="reglog">   
+                    <li class="vlavo login"><a href="./login.html"> Log In</a></li>
+                    <li class="vlavo registrujsa"> <a href="./register.html"> Registruj sa</a></li>
+                </div>
+        </ul>
+        </nav>
         
     </header>
 
@@ -29,7 +41,7 @@
         <article>
             <div class="jadro">
                 <header>
-                    <h2 class="h2">
+                    <h2 class="h2" id="Članok">
                         Tento text je úzasný
                     </h2>
                     <p class="menodatum">
@@ -67,7 +79,7 @@
         
         
             <footer class="footer">
-            <h3>O autorovi</h3>
+            <h3 id="Oautorovi">O autorovi</h3>
             <div class="bioline">
                 <a class="vlavo" href="#">
                     <img src="../img/autor.png" height="130px" width="130px" alt="Autor clanku">
@@ -85,7 +97,7 @@
 
         <aside class="pre-footer">
             <hr class="hr1">
-            <ul class="recenzia">
+            <ul class="recenzia" id="recenzie">
                 <li>
                     <blockquote class="recenzia-uz" >Tato stranka je uzasna</blockquote> 
                     <p>Filip</p>
