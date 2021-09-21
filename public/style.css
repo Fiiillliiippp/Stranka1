@@ -371,7 +371,7 @@ footer > h3 {
     background: rgb(65, 29, 194);
 }
 
-input,
+input:not([type=checkbox]):not([type=radio]),
 button,
 textarea,
 select {
@@ -405,4 +405,34 @@ button:hover,
 button:active {
     background: #b6a1a1;
     border: 1px #b6a1a1 solid;
+}
+
+label {
+    display: block;
+    text-align: left;
+    cursor: pointer;
+}
+
+.remember {
+    display: unset;
+}
+
+.stretko {
+    text-align: left;
+    display: table;
+}
+
+.stretko>p{
+    margin: 25px 0 5px 0
+}
+
+.radioday {
+    cursor: pointer;
+    float: left;
+    clear: left;
+    padding: 4px 0px;
+}
+
+.zaver {
+    display: block;
 }
