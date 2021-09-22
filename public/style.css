@@ -348,27 +348,30 @@ footer > h3 {
 }
 
 .backtohome {
-    background: #57648C;
-    border: black 0.5px solid;
-    padding: 5px 5px;
-    font-weight: 600;
-    position: fixed;
-    bottom: 4%;
-    right: 4%;
-    height: 18px;
-    width: 60px;
-    text-align: center;
-    border-radius: 18px;
+    text-align: left;
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: -15px;
 }
 
-.backtohome a{
-    color: rgb(39, 4, 4);
-    text-align: center;
+.backtohome li {
+    padding: 0 5px;
 }
 
-.backtohome:hover,
-.backtohome:focus {
-    background: rgb(65, 29, 194);
+.backtohome li::after{
+    content: '/';
+    padding-left:5px;
+}
+
+.backtohome a {
+    text-decoration: none;
+    color: black;
+}
+
+.backtohome a:hover,
+.backtohome a:focus {
+    color: rgb(29, 29, 29);
+    border-bottom: rgb(29, 29, 29) solid 0.2px;
 }
 
 input:not([type=checkbox]):not([type=radio]),
@@ -384,6 +387,12 @@ select {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
     
 }
+
+input:focus,
+textarea:focus {
+    outline: 3px solid rgb(15, 59, 143);
+}
+
 
 textarea {
     width:90%;
@@ -431,6 +440,20 @@ label {
     float: left;
     clear: left;
     padding: 4px 0px;
+}
+
+.suhnot {
+    margin: 5px 22%;
+}
+
+.suhnot label input {
+    margin-right: 5px;
+    margin-top: 2px;
+    float: left;
+}
+
+.suhlasp {
+    padding: 0 18px;
 }
 
 .zaver {
