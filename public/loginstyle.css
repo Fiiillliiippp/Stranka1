@@ -1,0 +1,275 @@
+.logbody {
+    width: 100%;
+    /* margin: 0 24%; */
+    background: #934A5F;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    /* padding: 0 20px; */
+    overflow-x: hidden;
+
+} 
+
+a {
+    text-decoration: none;
+}
+
+.vlavo {
+    float: left;
+}
+.navigacia {
+    background: rgb(246 219 219 / 90%);
+    color: black;
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    left: 0;
+    width: 105%;
+    border-bottom: 1px solid #813434;
+}
+.navigacia a {
+    color: black;
+}
+.navigacia a:hover,
+.navigacia a:focus{
+    outline: black;
+    text-decoration: underline;
+}
+
+.navigacia li {
+    padding: 0 15px 5px 15px;
+    margin: -5px 20px 7px;
+    list-style: none;
+    color: black;
+    font-weight: 800;    
+}
+
+.reglog {
+    position: relative;
+    top: 0;
+    left: 30%;
+}
+
+.navigacia .login {
+    padding: 5px 15px 5px 15px;
+    margin: -7px 10px 5px;
+    background: #ff5c5c;
+    border-radius: 11px;
+    border: 0.2px solid rgb(158, 56, 56);
+}
+
+
+.navigacia .registrujsa {
+    padding: 5px 15px 5px 15px;
+    margin: -7px 10px 5px;
+    background: #ff5c5c;
+    border-radius: 11px;
+    border: 0.2px solid rgb(158, 56, 56);
+}
+
+.navigacia .registrujsa a:focus,
+.navigacia .registrujsa a:hover,
+.navigacia .login a:focus,
+.navigacia .login a:hover{
+    text-decoration: none;
+}
+
+.navigacia .login:hover,
+.navigacia .login:focus,
+.navigacia .registrujsa:hover,
+.navigacia .registrujsa:hover{
+    background: #fd3a3a;
+}
+
+
+.backtohome {
+    text-align: left;
+    list-style: none;
+    margin-top: 70px;
+    margin-bottom: -15px;
+}
+
+.backtohome li {
+    padding: 0 5px;
+}
+
+.backtohome li::after{
+    content: '/';
+    padding-left:5px;
+}
+
+.backtohome a {
+    text-decoration: none;
+    color: black;
+}
+
+.backtohome a:hover,
+.backtohome a:focus {
+    color: rgb(29, 29, 29);
+    border-bottom: rgb(29, 29, 29) solid 0.2px;
+}
+
+p {
+    margin-bottom: -10px;
+    margin-right: 39%;
+}
+
+.formular {
+    margin: 0 24%;
+}
+
+
+
+input:not([type=checkbox]):not([type=radio]),
+button,
+textarea,
+select {
+    background: #C2B4D6;
+    border: none;
+    width: 40%;
+    padding: 15px 20px;
+    margin: 17px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
+    
+}
+
+input:focus,
+textarea:focus {
+    outline: 3px solid rgb(15, 59, 143);
+}
+
+
+textarea {
+    width:90%;
+}
+
+select {
+    width: 25%;
+    padding: 5px 10px;
+}
+
+button {
+    background: #E5E5E5;
+    width: 250px;
+    height: 40px;
+    padding: 0;
+}
+
+button:hover,
+button:active {
+    background: #b6a1a1;
+    border: 1px #b6a1a1 solid;
+}
+
+label {
+    display: block;
+    text-align: left;
+    cursor: pointer;
+}
+
+.remember {
+    display: unset;
+}
+
+.stretko {
+    text-align: left;
+    display: table;
+}
+
+.stretko>p{
+    margin: 25px 0 5px 0
+}
+
+.radioday {
+    cursor: pointer;
+    float: left;
+    clear: left;
+    padding: 4px 0px;
+}
+
+.suhnot {
+    margin: 5px 22%;
+}
+
+.suhnot label input {
+    margin-right: 5px;
+    margin-top: 2px;
+    float: left;
+}
+
+.suhlasp {
+    padding: 0 18px;
+}
+
+.zaver {
+    display: block;
+}
+
+
+.prefooter {
+    background: #C2B4D6;
+    height: 200px;
+    }
+
+.prefooter .navigaciafoot:first-child {
+    margin-left: 10%;
+}
+
+
+
+.navigaciafoot {
+    list-style: none;
+    float: left;
+    margin-right: 100px;
+}
+
+.navigaciafoot li {
+    padding: 2px 0;
+    text-align: left;
+    list-style: none;
+}
+
+.navigaciafoot li a{
+    text-decoration: none;
+    color: #505050;
+}
+
+
+.navigaciafoot li a:hover,
+.navigaciafoot li a:focus{
+    border-bottom: black 1px solid;
+}
+
+.navigaciafoot li p {
+    color: black;
+    font-weight: 500;
+    margin-bottom: 5px
+
+}
+
+
+.futer {
+    background: rgb(214 214 214);
+    height: 50px;
+    position: relative;
+}
+
+.divfooter {
+    position: absolute;
+    bottom: 5px;
+    left: 80%;
+}
+
+.imglogo2 {
+    float: left;
+    margin-bottom: -23px;
+    margin-left: 10px;
+}
+
+.copy {
+    margin: 0;
+    margin-left: 50px;
+    clear: both;
+    margin-bottom: 6px;
+}
