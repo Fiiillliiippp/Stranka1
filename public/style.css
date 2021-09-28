@@ -48,9 +48,8 @@ p {
 }
 
 .reglog {
-    position: relative;
-    top: 0;
-    left: 30%;
+    margin-right: 5%;
+    float: right;
 }
 
 
@@ -123,12 +122,6 @@ p {
     
 }
 
-@media screen and (max-width: 800px) {
-    .logobg {
-        height: 132.3px;
-        width:  374.5px;
-    }
-}
 
 
 .odznak {
@@ -171,14 +164,6 @@ p {
     
 }
 
-@media screen and (max-width: 800px) {
-    .h2 {
-        margin: 0;
-    }
-}
-
-
-
 
 .menodatum {
     font-size: 16px;
@@ -187,11 +172,7 @@ p {
     /* margin-left: 250px; */
 }
 
-@media screen and (max-width: 800px) {
-.menodatum{
-    margin-left: 0;
-}
-}
+
 
 .autor {
     font-weight: 900;
@@ -236,13 +217,6 @@ p {
     line-height: 23px;
     font-weight: 500;
     color: black; 
-}
-
-@media screen and (max-width: 800px) {
-.jadroprvep {
-    margin: 0 -65px;
-}
-
 }
 
 .vlavo{
@@ -469,10 +443,11 @@ label {
 .prefooter {
     background: #C2B4D6;
     height: 200px;
+    width: 105%;
     }
 
 .prefooter .navigaciafoot:first-child {
-    margin-left: 10%;
+    margin-left: 30%;
 }
 
 
@@ -511,6 +486,7 @@ label {
 .futer {
     background: rgb(214 214 214);
     height: 50px;
+    width: 105%;
     position: relative;
 }
 
@@ -532,3 +508,201 @@ label {
     clear: both;
     margin-bottom: 6px;
 }
+
+@media screen and (max-width:1025px) {
+    .reglog {
+        float: right;
+        margin-right: 5%;
+    }
+    body {
+        width: 100%;
+        padding: 0;
+    }
+
+    .navigacia li{
+        margin: 0 1%;
+        padding: 0 8px 0 8px;
+    }
+   
+    .cover img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .odznak {
+        left: 78%;
+    }
+
+
+    article {
+        margin: 0 3%;
+    }
+
+    .jadroprvep {
+        margin: 0;
+    margin-bottom: 25px;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+    }
+
+    .jadro {
+        padding: 0;
+        width: 100%;
+    }
+
+
+
+    .citat{
+        float: none;
+        text-align: center;
+        margin: 10px auto;
+        max-width: none;
+    }
+
+    .recenzia {
+        padding: 0;
+    }
+
+
+    .recenzia li{
+        max-width: none;
+        padding: 0px;
+        width: auto;
+    }
+
+    .recenzia li:first-child{
+        margin-left: 5%;
+    }
+
+    .navigaciafoot {
+        margin: 15px;
+    }
+
+    .prefooter .navigaciafoot:first-child{
+        margin-left: 20%;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width:850px) {
+  
+    .logo {
+        font-size: 50px;
+        top: 10px;
+    }
+
+    .reglog {
+        margin-right: 0;
+        float: none;
+    }
+
+    .navigacia li {
+        margin: 0;
+    }
+
+    .navigacia li:first-child {
+        margin-left: -33px;
+    }
+
+    .navigacia .reglog .login {
+        margin-left: 10px;
+    }
+
+    .divfooter {
+        left: 0%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:700px) {
+
+    .logo a {
+        margin-left: -5%;
+    }
+
+    .reglog {
+        display: none;
+    }
+
+    .navigacia li {
+        margin-bottom: 8px;
+        margin-top: -5px
+    }
+    .footer {
+        width: 100%;
+    }
+
+
+    .recenzia li {
+        margin: -10px 0%;
+        padding: 2%;
+    }
+
+    .recenzia li:first-child {
+        margin-left: 17%;
+    }
+
+    .recenzia li:last-child{
+        display: none;
+
+    }
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width:400px) {
+
+    .navigacia li:nth-child(3){
+        display: none;
+    }
+
+    .odznak {
+        top: -100px;
+
+    }
+
+    .prefooter .navigaciafoot,
+    .prefooter .navigaciafoot:first-child {
+        margin: 5px 0;
+    }
+
+    .recenzia li {
+        margin: -20px 20%;
+    }
+    .recenzia li:first-child {
+        margin: -30px 20%;
+        margin-top: -86px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
