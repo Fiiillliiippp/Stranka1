@@ -49,9 +49,10 @@ p {
 }
 
 .reglog {
-    position: relative;
-    top: 0;
-    left: 40%;
+    position: absolute;
+    top: 13px;
+    /* left: 40%; */
+    right: 5%;
 }
 
 .navigacia .login {
@@ -216,4 +217,104 @@ h1{
     margin-left: 50px;
     clear: both;
     margin-bottom: 6px;
+}
+
+
+
+/* responzivita */
+
+
+
+@media screen and (max-width:1025px) {
+    .reglog {
+        position: inherit;
+    }
+    body {
+        width: 100%;
+        padding: 0;
+    }
+
+    .navigacia li{
+        margin: 0 1%;
+        padding: 0 8px 0 8px;
+    }
+
+    .navigaciafoot {
+        margin: 15px;
+    }
+
+    .prefooter .navigaciafoot:first-child{
+        margin-left: 20%;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width:850px) {
+  
+    .reglog {
+        margin-right: 0;
+        float: none;
+    }
+
+    .navigacia li {
+        margin: 0;
+    }
+
+    .navigacia li:first-child {
+        margin-left: -33px;
+    }
+
+    .navigacia .reglog .login {
+        margin-left: 10px;
+    }
+
+    .divfooter {
+        left: 0%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:700px) {
+
+    body {
+        width: 100%;
+    }
+
+    .reglog {
+        display: none;
+    }
+
+    .navigacia li {
+        margin-bottom: 8px;
+        margin-top: -5px
+    }
+
+
+    .prefooter .navigaciafoot,
+    .prefooter .navigaciafoot:first-child {
+        margin: 5px auto;
+    }
+
+}
+
+
+
+@media screen and (max-width:400px) {
+
+    .navigacia li:nth-child(3){
+        display: none;
+    }
+
+
+    .prefooter .navigaciafoot,
+    .prefooter .navigaciafoot:first-child {
+        margin: 5px 0;
+    }
 }
