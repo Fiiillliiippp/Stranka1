@@ -646,7 +646,7 @@ label {
     
         input,
         textarea,
-        button, {
+        button {
             width: 100%;
         }
 
